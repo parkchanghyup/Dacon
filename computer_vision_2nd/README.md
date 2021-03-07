@@ -9,6 +9,6 @@
 
 ## reference
 ---
-- 
--
+- [effnet](https://everyday-deeplearning.tistory.com/entry/%EC%B4%88%EA%B0%84%EB%8B%A8-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0-Efficient-NetworkGoogle-Research-Brain-Team)
+- [mobilenet]()
 -
