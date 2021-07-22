@@ -1,4 +1,7 @@
 ## 뉴스 토픽 분류 AI 경진대회 
 ---
-kobert : 5-fold : 0.8460021905805039
-ko-electra : 0.8470974808324206
+|모델|k-fold|전처리|public score|private score|
+|---|-----|---|-----|----
+|kobert|5-fold|x|0.84600|
+|kobert|x|x|0.8538|
+|ko-electra|x|x|0.8470|
