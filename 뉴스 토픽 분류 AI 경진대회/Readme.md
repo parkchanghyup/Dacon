@@ -6,6 +6,7 @@
 |kobert|5-fold|x|0.84600|
 |kobert|X|O|0.8491|
 |kobert|x|x|0.8538|
+|kobert|x|x|0.8567|
 |ko-electra|x|x|0.8470|
 |ko-electra|x|o|0.8475|
 |ko_electra|o|x|0.8578|
