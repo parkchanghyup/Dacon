@@ -3,13 +3,13 @@
 ### 하이퍼 파라미터
 ---
 
-max_len = 32 
-batch_size = 64 # 모델 크게이 따라 유동적
-warmup_ratio = 0.1
-num_epochs = 5
-max_grad_norm = 1
-log_interval = 200
-learning_rate = 5e-5
+- max_len = 32 
+- batch_size = 64 # 모델 크게이 따라 유동적 
+- warmup_ratio = 0.1
+- num_epochs = 5
+- max_grad_norm = 1
+- log_interval = 200
+- learning_rate = 5e-5
 
 ### 모델 성능
 |모델|k-fold|전처리|public score|private score|
