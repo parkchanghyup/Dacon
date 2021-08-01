@@ -12,6 +12,7 @@
 - learning_rate = 5e-5
 
 ### 모델 성능
+---
 |모델|k-fold|전처리|public score|private score|
 |---|-----|---|-----|----|
 |kobert|5-fold|O|0.8560|
