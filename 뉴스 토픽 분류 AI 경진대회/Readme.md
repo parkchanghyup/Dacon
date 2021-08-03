@@ -18,7 +18,6 @@
 |---|-----|---|-----|----|
 |kobert|3-fold|x|0.8637|
 |kobert|5-fold|O|0.8560|
-|kobert|5-fold|x|0.84600|
 |kobert|X|O|0.8562|
 |kobert|x|x|0.8569|
 |ko-electra|x|x|0.8470|
