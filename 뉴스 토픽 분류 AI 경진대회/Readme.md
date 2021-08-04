@@ -22,7 +22,7 @@
 |kobert|x|x|0.8569|
 |ko-electra|x|x|0.8470|
 |ko-electra|x|o|0.8475|
-|ko_electra|o|x|0.8578|
+|ko_electra|5-fold|x|0.8578|
 |ko_electra|O|O|0.8562|
 |xlm-roberta-large|x|x|0.8468784227820373|
 
