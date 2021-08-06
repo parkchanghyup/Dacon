@@ -26,4 +26,5 @@
 |ko_electra|3-fold|o|0.88536|
 |ko_electra|5-fold|o|0.8547|
 |xlm-roberta-large|x|x|0.8468784227820373|
+|xlm-roberta-large|x|x|0.8468784227820373|
 
