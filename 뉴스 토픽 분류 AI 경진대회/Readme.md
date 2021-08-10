@@ -16,7 +16,7 @@
 ---
 |모델|k-fold|전처리|public score|private score|
 |---|-----|---|-----|----|
-|kobert|3-fold|x|0.8637|
+|kobert|3-fold|x|0.8637|0.830
 |kobert|5-fold|O|0.8560|
 |kobert|X|O|0.8562|
 |kobert|x|x|0.8569|
