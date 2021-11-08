@@ -1,5 +1,5 @@
 # NH투자증권 빅데이터 경진대회
----
+  
 [League1] 가짜뉴스 탐지 알고리즘 개발 : [AI야, 진짜뉴스를 찾아줘!](https://dacon.io/competitions/official/235658/overview/description/)
 
 - 544팀중 2등을 차지하여 장려상 수상
