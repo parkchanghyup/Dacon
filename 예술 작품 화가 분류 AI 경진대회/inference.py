@@ -12,7 +12,7 @@ from sklearn import preprocessing
 
 def inference(best_models, test_dataloader):
     """
-    test데이터 셋을 inference 하는 코드
+    test 데이터 셋을 inference 하는 코드
 
     파라미터
     ---
@@ -28,7 +28,6 @@ def inference(best_models, test_dataloader):
     """
     probs_list = []
 
-    # 0으로 채워진 array 생성
 
     for idx, batch in enumerate(test_dataloader):
         with torch.no_grad():
@@ -64,9 +63,11 @@ model = model.to(device)
 prob_list = inference(model,test_dataloader)
 
 train_df = pd.read_csv('open/train.csv')
+
 # Label Encoding
 le = preprocessing.LabelEncoder()
 train_df['artist'] = le.fit_transform(train_df['artist'].values)
 
+# sample_sumbissions 생성
 sample_submission['artist'] = le.inverse_transform(prob_list).tolist()
 sample_submission.to_csv('submission.csv',index = False)
