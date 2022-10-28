@@ -6,7 +6,6 @@ import torch
 import torchvision.models as models
 
 import random
-from utils import *
 from sklearn import preprocessing
 
 
@@ -26,6 +25,7 @@ def inference(best_models, test_dataloader):
     probs_list : list
         test 데이터의 예측값을 가지고 있는 list
     """
+    
     probs_list = []
 
 
