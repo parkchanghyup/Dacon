@@ -79,7 +79,7 @@ def get_dataloader(df, config, mode):
         return train_data_loader, valid_data_loader
 
     else:
-        test_dataset = CustomDataset(df)
+        test_dataset = CustomDataset(df, augmentations=valid_augmentations)
         test_data_loader = DataLoader(
             test_dataset,
             batch_size=config['BATCH_SIZE'],
