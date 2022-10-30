@@ -70,10 +70,10 @@ model = model.to(device)
 
 prob_list = inference(model,test_dataloader)
 
-test_df = pd.read_csv('test.csv')
+train = pd.read_csv('train.csv')
 # Label Encoding
 le = preprocessing.LabelEncoder()
-test_df['artist'] = le.fit_transform(test_df['artist'].values)
+train['artist'] = le.fit_transform(train['artist'].values)
 
 sample_submission['artist'] = le.inverse_transform(prob_list).tolist()
 sample_submission.to_csv('submission.csv',index = False)
