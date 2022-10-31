@@ -1,11 +1,8 @@
 import pandas as pd
-import numpy as np
-import os
 
 import torch
 import torchvision.models as models
 
-import random
 from utils import *
 from sklearn import preprocessing
 
