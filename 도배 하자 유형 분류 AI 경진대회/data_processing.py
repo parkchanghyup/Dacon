@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader, Dataset
 import torchvision.transforms as transforms
-from randaugment import RandAugment
+from UniformAugment import UniformAugment
 from sklearn import preprocessing
 from PIL import Image
 
@@ -51,11 +51,13 @@ class CreateDataloader:
         # augmentations 적용
         train_transform = transforms.Compose([
             transforms.Resize((224, 224)),
-            RandAugment(),
+            #RandAugment(),
             # transforms.RandomHorizontalFlip(),
             transforms.ToTensor(),
             normalize,
         ])
+        train_transform.transforms.insert(0, UniformAugment())
+
         test_transform = transforms.Compose([
             transforms.Resize((224, 224)),
             transforms.ToTensor(),
