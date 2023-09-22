@@ -71,4 +71,4 @@ def train_inference(train, test):
         preds = np.append(preds, pred)
 
     return preds
-
+    
