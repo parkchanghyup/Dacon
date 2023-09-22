@@ -15,5 +15,3 @@ preds = train_inference(train_df, test_df)
 submission = pd.read_csv('./data/sample_submission.csv')
 submission['answer'] = preds
 submission.to_csv('submission.csv',index= False)
-
-
